@@ -1,0 +1,8 @@
+@layer components {
+  .btn-primary {
+    @apply px-4 py-2 rounded-lg bg-blue-500 text-white shadow-lg;
+  }
+  .btn-danger {
+    @apply px-4 py-2 rounded-lg bg-red-500 text-white hover:bg-red-100 hover:text-red-500;
+  }
+}

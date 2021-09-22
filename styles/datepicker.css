@@ -1,0 +1,5 @@
+@layer components {
+  .DayPickerInput > input {
+    @apply cursor-pointer p-2 rounded bg-gray-50;
+  }
+}

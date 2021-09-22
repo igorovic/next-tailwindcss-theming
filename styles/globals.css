@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import "./buttons.css";
+@import "./datepicker.css";
+
+@layer base {
+  body {
+    @apply bg-blue-50;
+  }
+  h2 {
+    @apply text-2xl;
+  }
+}
